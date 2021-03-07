@@ -1,5 +1,5 @@
 
-# ruGPT3large-simple-web-app-
+# ruGPT3large simple web app in colab using flask and ngrok
 
 # Reference:
 Russian GPT3 models
