@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+ 
+  
+    <form action="{{ url_for("predict") }}" method="post">
+    <input name = "guess" type='text' autofocus placeholder="Type text prompt here..">
+    <input type = "submit" value="Result" ></form>
+    <h4> Type text prompt:  </h4>
+</body>
+</html>
